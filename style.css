@@ -56,3 +56,73 @@ body{
     text-decoration: none;
     padding: 20px
   }
+  #welcome-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    background-image:  62deg, rgb(58, 61, 64);
+    padding: 20px;
+    /* margin-top: 70.8px; */
+    /* border-radius: 5px; */
+    color: #F0F0F0;
+    height: 742.4px;
+    /* width: 519.2px; */
+  }
+  #welcome-section h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 700px;
+    line-height: 84px;
+    color:  #F0F0F0;
+    height: 84px;
+    /* width: 433.45px; */
+
+  }
+  #welcome-section span {
+    display: flex;
+    justify-items: row-start;
+    font-size: 30px;
+    line-height: 42px;
+    color:  #BE3144;
+    height: 42px;
+    font-style: italic;
+    font-weight: 200;
+    /* width: 433.45px; */
+  }
+  #projects-section{
+    background-color:  #45567D;
+    color:  #F0F0F0;
+    height: 1387.97px;
+    width: 1519.2px;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-decoration: none solid rgb(240, 240, 240);
+    text-align: center;
+    padding: 100px 20px 100px 20px;
+  }
+  #projects-section h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 58.8px;
+    text-align: center;
+    /* background-color:  #FFFFFF; */
+    height: 60.4px;
+    /* width: 1400px; */
+    border-bottom: 2px solid  #F0F0F0;
+    margin: 2px solid  #F0F0F0;
+    max-width: 640px;
+    margin-left: 400px;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+  }
+  #projects-section span {
+    display: flex;
+    justify-items: row-start;
+    font-size: 30px;
+    line-height: 42px;
+    color:  #BE3144;
+    height: 42px;
+  }
