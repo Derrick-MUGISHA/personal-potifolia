@@ -64,7 +64,9 @@ body {
 
 /* Welcome Section */
 #welcome-section {
-    height: 100vh;
+    height: 742.4px;
+    width: 1519.2px;
+    background-image: 62deg, rgb(58, 61, 64);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,29 +78,48 @@ body {
 
 #welcome-section .welcome-content {
     max-width: 600px;
-    padding: 2rem;
+    /* padding: 2rem;    */
 }
 
 #welcome-section h1 {
-    font-size: 3rem;
+    font-size:  60px;
+    font-weight:  700;
+    line-height:  84px;
+    text-align: center;
+    height:  84px;
+    width: 563.45px;
     color: var(--primary-color);
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 #welcome-section p {
-    font-size: 1.5rem;
-    color: var(--text-color);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 42px;
+    height: 42px;
+    width: 549.7px;
+    color:  #BE3144;
 }
 
 /* Projects Section */
 #projects {
     padding: 4rem 2rem;
-    background-color: white;
+    background-color: #45567D;
     text-align: center;
 }
 
 #projects h2 {
-    margin-bottom: 2rem;
+    font-size:  42px;
+    font-weight: 700;
+    line-height: 58.8px;
+    height: 60.4px;
+    width: 640px;
+    border-bottom:  2px solid  #F0F0F0;
+    margin:  0 420px 60px 420px;
+    max-width:  640px;
+    border-radius: 8px;
+    /* margin-bottom: 2rem; */
     color: var(--primary-color);
 }
 
