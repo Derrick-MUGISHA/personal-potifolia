@@ -178,6 +178,32 @@ body {
     font-size: 20px;
     line-height: 28px;
 }
+.button p{
+    background-color: #303841;
+    border: none;
+    border-radius: 5px;
+    height: 48px;
+    width: 144.95px;
+    padding-bottom: 1px;
+    padding-top: 15px;
+    text-align: center;
+    margin-left: 600px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+.button p:hover {
+    background-color: rgb(224, 53, 53);  
+    margin-left: 600px;
+    margin-top: 50px;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+}
+.button i {
+    margin-left: 10px;
+}
 
 /* Contact Section */
 #contact {
@@ -189,6 +215,7 @@ body {
 
 #contact h2 {
     margin-bottom: 2rem;
+    font-size: 60px;
 }
 
 .contact-links a {
