@@ -1,4 +1,4 @@
-* Reset and Base Styles */
+/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -40,26 +40,29 @@ body {
     font-size: 22px;
     line-height:  30.8px;
     text-align: left;
-    gap: 20px;
-    /* padding: 20px 20px 20px 20px; */
+    gap: 30px;
+    padding-top: 20px;
+    
 }
 
 #navbar ul li {
     margin-left: 10px;
 }
 
-#navbar ul li a {
+a{
     color: white;
     text-decoration: none;
-    transition: color 0.3s ease;
+    padding: 20px 20px 20px 20px;
+    /* transition: color 0.3s ease; */
 }
 
-#navbar ul li a:hover {
+a:hover {
     background-color:  #45567D;
     padding: 20px 20px 20px 20px;
     width: 105.875px;
     height: 70.8px;
     color: var(--background-color);
+    transition: none;
 }
 
 /* Welcome Section */
@@ -88,7 +91,7 @@ body {
     text-align: center;
     height:  84px;
     width: 563.45px;
-    color: var(--primary-color);
+    color: white;
     /* margin-bottom: 1rem; */
 }
 
@@ -118,9 +121,9 @@ body {
     border-bottom:  2px solid  #F0F0F0;
     margin:  0 420px 60px 420px;
     max-width:  640px;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     /* margin-bottom: 2rem; */
-    color: var(--primary-color);
+    color: white !important;
 }
 
 .project-grid {
@@ -185,14 +188,13 @@ body {
     height: 48px;
     width: 144.95px;
     padding-bottom: 1px;
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center;
     margin-left: 600px;
     color: white;
     font-size: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 10px;
 }
 .button p:hover {
     background-color: rgb(224, 53, 53);  
@@ -202,7 +204,7 @@ body {
     margin-top: 50px;
 }
 .button i {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 /* Contact Section */
@@ -216,14 +218,19 @@ body {
 }
 
 #contact h2 {
-    /* margin-bottom: 2rem; */
+    /* margin-top: 2rem; */
     font-size: 60px;
+    padding-top: 200px;
+    /* margin-bottom: 40px; */
 }
-#contact span {
+#contact p {
     font-size: 18px;
+    margin-bottom: 80px;
+
 }
 
 .contact-links a {
+    /* padding-top: 300px; */
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
